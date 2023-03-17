@@ -1,0 +1,103 @@
+html {
+    width: 8.5in;
+    margin: auto; 
+}
+
+body {
+    margin: 0;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2ex;
+}
+
+h2 {
+    border-bottom: solid 1px;
+    margin-top: 0ex;
+    font-weight: normal;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 1ex;
+}
+
+h5 {
+    margin: 0;
+    font-style: italic;
+}
+
+a {
+    color: black;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.headder {
+    display: flex;
+    align-self: flex-start;
+    width: 8.5in;
+    margin: 0;
+}
+
+.name {
+    align-self: flex-start;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.contact {
+    align-self: flex-start;
+    margin: 0;
+}
+
+.about {
+    align-self: flex-start;
+    width: 8.5in;
+    margin-top: 0;
+}
+
+.main_body {
+    width: 500px;
+    align-self: flex-start;
+    flex: 1;
+}
+
+ul.job_description {
+    margin-top: 0;
+}
+
+.projects {
+    margin-top: 2ex;
+}
+
+.sidebar {
+    width: 285px;
+    align-self: flex-start;
+}
+
+h3.education {
+    margin-bottom: 2ex;
+}
+
+h5.education {
+    margin-top: 2ex;
+}
+
+h2.skills {
+    margin-top: 3ex;
+}
+
+h2.tools {
+    margin-top: 3ex;
+}
+
+h2.volunteer {
+    margin-top: 3ex;
+}
